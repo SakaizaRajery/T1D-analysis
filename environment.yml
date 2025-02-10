@@ -1,6 +1,7 @@
 name: T1D_Pheno
 channels:
   - conda-forge
+  - bioconda
 dependencies:
   - jupyterlab=4.2
   - ca-certificates
@@ -11,6 +12,7 @@ dependencies:
   - nb_conda_kernels
   - jupyter_contrib_nbextensions
   - r
+  - r-base=4.0.*
   - r-irkernel
   - r-ggplot2
   - r-dplyr

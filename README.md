@@ -18,7 +18,7 @@
 <h3 align="center"> PhenoPLIER & T1D Progression</h3>
 
   <p align="center">
-    In order to understand the heterogeneity of T1D progression, we project whole blood cell gene expression data from a cohort study (DIASY) into latent variables (LV) derived from large public dataset. 
+    In order to understand T1D, and the heterogeneity of T1D progression, we project TWAS summary statistics and  whole blood cell gene expression data from a cohort study (DIASY) respectively into a latent variables (LV) space derived from recount2 gene expression data. 
   </p>
 </div>
 
@@ -58,15 +58,15 @@ T1D is an autoimmune disease that progresses through three stages. The earliest 
 
 T1D progression has been monitored in DAISY participants by tracking IA through the number of autoantibodies signaling for beta cell damage. Three different groups have been identified, Progressors: participants who progress to T1D, Maintainers: participants who remain IA positive but do not progress to the symptomatic phase of T1D until the end of the study and Reversers, participants who do not show autoantibodies anymore by the time they leave the study.
 
-RNA sequencing data from Whole blood cells have been collected on  DAISY (The Diabetes Auto Immunity Study in the Young) participants at various time points. In this project we will use RNAseq data at the 2 earliest timepoint after IA. 
+Phenoplier uses large public data to create latent variables representing genes that are co-expressed in various diseases, conditions, or cell type. The first part of this project aims at looking at T1D using public data and phenoplier. 
 
-Phenoplier uses large public data to create latent variables representing genes that are co-expressed in various diseases, conditions, or cell type. By projecting RNAseq data from DAISY into Phenoplier’s latent space we aim to gain a more rounded biological interpretation of differential gene expression between Maintainers (M), Progressors (P), and reversers (R) through the lenses of drug mechanisms, other diseases, and gene expression in specific tissues.
+For the second part we use RNA sequencing data from Whole blood cells that have been collected on  DAISY (The Diabetes Auto Immunity Study in the Young) participants at the 2 earliest timepoint after IA. 
+By projecting RNAseq data from DAISY into Phenoplier’s latent space we aim to gain a more rounded biological interpretation of differential gene expression between Maintainers (M), Progressors (P), and reversers (R) through the lenses of drug mechanisms, other diseases, and gene expression in specific tissues.
 
 The code in this repository does the following: 
 
-1. **Identify gene modules (LV) that are differentially expressed between M. P and R**
-2. **Analyze expression of gene modules in cell types and conditions.**
-3. **Interpret meaning in the context of T1D Pathogenesis**
+1. **Identify gene modules (LV) that are associated with T1D**
+2. **Identify gene modules (LV) that are differentially expressed in Maintainer, Reverter and Progressor**
     
   </p>
 
@@ -81,7 +81,7 @@ The code in this repository does the following:
 </div>
 
 
-<h3 align="center">Gene module Identification</h3>
+<h3 align="center">Identification of T1D associated Gene module </h3>
 
 | File Name/ Location           | Function  |
 |:-------------:|:-----|
@@ -90,7 +90,7 @@ The code in this repository does the following:
 | file_3     |bla bla bla bla|
 
 
-<h3 align="center">Gene module analysis 2</h3>
+<h3 align="center">Identification of IA status associated gene modules</h3>
 
 | File Name/ Location           | Function  |
 |:-------------:|:-----|
@@ -98,13 +98,6 @@ The code in this repository does the following:
 |   file_2 |bla bla bla bla|
 | file_3     |bla bla bla bla|
 
-<h3 align="center">from LV to T1D Pathogenesis</h3>
-
-| File Name/ Location           | Function  |
-|:-------------:|:-----|
-| file_1 | bla bla bla bla  |
-|   file_2 |bla bla bla bla|
-| file_3     |bla bla bla bla|
 
 <!-- REPOSITORY -->
 

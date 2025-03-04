@@ -83,20 +83,19 @@ The code in this repository does the following:
 
 <h3 align="center">Identification of T1D associated Gene module </h3>
 
-| File Name/ Location           | Function  |
+| File Name/ Location           | Description  |
 |:-------------:|:-----|
-| file_1 | bla bla bla bla  |
-|   file_2 |bla bla bla bla|
-| file_3     |bla bla bla bla|
+| [1-Daisy projection anova](https://github.com/SakaizaRajery/T1D-analysis/blob/master/1-Daisy_projection_anova.ipynb) | bla bla bla bla  |
+|   [2-Prioritizing-T1D-LVs](https://github.com/SakaizaRajery/T1D-analysis/blob/master/2-Prioritizing-T1D-LVs.ipynb) |bla bla bla bla|
+
 
 
 <h3 align="center">Identification of IA status associated gene modules</h3>
 
 | File Name/ Location           | Function  |
 |:-------------:|:-----|
-| file_1 | bla bla bla bla  |
-|   file_2 |bla bla bla bla|
-| file_3     |bla bla bla bla|
+| [3a-Prioritizing-DAISY-LVs-data1](https://github.com/SakaizaRajery/T1D-analysis/blob/master/3a-Prioritizing-DAISY-LVs-data1.ipynb) | Project daisy data into Latent space, anova of gene module expression between the three IA status  |
+|   [3b-Prioritizing-DAISY-LVs-data2](https://github.com/SakaizaRajery/T1D-analysis/blob/master/3b-Prioritizing-DAISY-LVs-data2.ipynb) |bla bla bla bla|
 
 
 <!-- REPOSITORY -->
